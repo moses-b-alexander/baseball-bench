@@ -1,4 +1,114 @@
-# BaseballBench — design schema and code architecture
+# BaseballBench — design and implementation status
+
+This file has two parts:
+
+- **Part A, Implementation status:** the ground truth for what exists in code. Update it whenever code merges.
+- **Part B, Design handoff v0.3:** the original design spec, unchanged. It describes intended contracts, and parts of it are not built. If Part A and Part B disagree, Part A describes the code.
+
+---
+
+# Part A — Implementation status
+
+Last updated 2026-10-26. Code: branch [`v0`](https://github.com/moses-b-alexander/baseball-bench/tree/v0), commit `d476d8b`. `main` holds only this document and the README so far. Work on the data specs goes on branch `data-specs`, which starts from `v0`.
+
+## A.1 Milestone status
+
+| Milestone (Part B §10) | Status |
+| --- | --- |
+| 1. Offline core | **Done.** A scripted episode runs end to end with no network or GPU. |
+| 2. Agent loop and shared briefing | **Done, except that no real model has run.** The adapter is tested only with mock transports. |
+| 3. Frozen data pipeline | **Partial.** Cutoff-safe aggregation and validation work on the synthetic data. There is no real-data import, team identity table, or dataset split. |
+| 4. Comparison runner and curriculum pilot | **Not started.** Each `run` executes one episode. There is no multi-scenario or multi-seed runner and no curriculum. |
+| 5. Optional extensions | **Not started.** |
+
+## A.2 Verified on 2026-10-26 (Windows, Python 3, standard library only)
+
+| Command | Result |
+| --- | --- |
+| `python -m unittest test_bench` | 35 tests pass |
+| `python data.py validate --snapshot data/demo` | OK: 6,960 pitches used. Excluded: 801 pitch rows after the cutoff, 1 PA event after the cutoff, 30 hit-by-pitch |
+| `python bench.py smoke` | `completed (defensive_horizon_reached)`, 25 decisions, 22 PA, 70 pitches, 1 lookup, 1 intentional walk, 1 switch (`pitcher_01` to `reliever_02` in inning 6) |
+| `python agent.py probes --mock` | 21/21. The mock returns the correct answers itself, so this checks the harness, not a model |
+
+Other commands are `python data.py make-demo` (regenerates `data/demo` with seed 20250610), `python bench.py run --agent {never_switch,threshold,random,tour,model} [--resume]`, `python bench.py summarize --run-dir DIR`, and `python agent.py briefing`.
+
+## A.3 Files
+
+| File | Lines | Contents |
+| --- | --- | --- |
+| `bench.py` | 803 | Config checks, state, pooled-frequency probabilities, count/runner reducers, PA simulation, observation, action validation and execution (`step`), episode loop with checkpoint/resume, summary, CLI |
+| `agent.py` | 365 | Briefing (`briefing-0.1`), observation formatting, OpenAI-compatible model adapter, parsing and repair, scripted baselines, comprehension probes, CLI |
+| `data.py` | 704 | Schema primitives, cutoff-safe `aggregate`, `workload_days`, CSV I/O, synthetic snapshot generator, `validate`, CLI |
+| `test_bench.py` | 497 | `unittest` suite |
+| `config.json` | 62 | The Part B §9 defaults plus `data`, `baselines` and `model` blocks |
+| `data/demo/` | — | Synthetic `pitches.csv`, `pa_events.csv`, `profiles.json`, `sim_tables.json`, `scenario.json`, `manifest.json` (with file hashes) |
+
+Version strings: schema `0.3`, ruleset `rules-0.1`, provider `pooled_frequency-0.1`, mapping `map-0.1`, pitch registry `demo-registry-0.1` (FF, SI, FC, SL, CU, CH, UNKNOWN), briefing `briefing-0.1`. Dependencies: standard library only.
+
+## A.4 What the code implements
+
+**Episode.** Fixed defensive horizon (Part B §2). The demo scenario `demo_001` is synthetic. The controlled team is home and starts defending in the top of the 6th with 1 out, starter `pitcher_01` on the mound, through the end of the 9th. The controlled team's runs between innings come from `offense_runs_after_inning` (`{"6": 0, "7": 1, "8": 0}`). The pitcher pool is the starter plus six relievers. `reliever_07` has `roster_available: false`.
+
+**Simulator.** Each pitch samples a pitch type (by batter side, falling back to overall, then `UNKNOWN`), then one of five outcomes. Outcome probabilities pool smoothed pitcher and batter frequencies (`alpha = 20`, `w = 0.5`) toward a frozen reference distribution. The pitcher side falls back from pitch type and side, to side, to overall; the batter side from hand to overall. Each pitch event logs the fallback levels used. Hit subtypes come from the frozen `hit_type_counts`. Four balls make a walk, three strikes a strikeout, and a foul with two strikes leaves the count unchanged. A PA reaching `max_pitches_per_pa` truncates the episode rather than forcing an out.
+
+**Baserunning.** Deterministic. A walk or intentional walk forces only the runners who must move. On a hit, every runner moves n bases. A strikeout or in-play out records one out and runners hold. There are no steals, double plays, errors or HBP. Runners carry `responsible_pitcher_id`. A third out ends the half, clears the bases, applies the offense entry, and either advances the inning or ends the episode after the last defensive inning.
+
+**Actions** (`bench.step` works on a deep copy, so a failed validation never mutates state):
+- `continue`: simulates one PA.
+- `intentional_walk`: zero pitches and zero RNG draws. It reuses `force_walk` and counts as a completed PA and an IBB in the splits.
+- `switch_pitcher`: zero PA. Limited to `max_switches_per_boundary` (1), with no reentry, and the reliever must be roster-available.
+- `check_at_bat`: snapshots both profiles first, then simulates `cost_pa` PAs (1) with the incumbent against the actual next batter, then delivers a `LookupReceipt`. Setting `cost_pa = 0` gives the free-lookup treatment, capped at 8 per boundary and using no PA and no RNG.
+- Validation rejects unknown actions, unknown fields, wrong types, over-length `reason`/`notes` (400/1,500 characters), and unknown or illegal IDs.
+
+**Observation** (`bench.observe`). It contains the game state, outs to end the inning, defense and current-pitcher exposure (outs + hits), the current pitcher's appearance and game splits, the ordered opposing lineup, and a bullpen overview (ID, hand, availability, legal now, and the reason if not). It also has the legal actions, lookup rules, every acquired receipt (snapshots, never truncated) and the agent's notes. It does not include detailed reliever or batter profiles, usage, or health; those come only through lookups. `show_shapes: false` removes pitch and swing shapes everywhere. `show_player_names: false` sets `display_name` to null.
+
+**Profiles.** `stats = season-before-game + game`, where `game = real prefix + simulated events`. Simulated pitches increase counts but never add shape or swing measurements. Season outs and the IP display string are derived from outs.
+
+**Persistence.** `checkpoint.json` is written atomically and holds the state, evidence, notes, RNG state, config hash, committed event sequence, and any pending accepted action. `events.jsonl` has stable IDs and is trimmed to the committed sequence on resume. `decisions.jsonl` records every attempt with raw text, usage and latency. `summary.json` holds the summary. Resume refuses a changed config and replays a pending action without asking the model again.
+
+**Agent side.**
+- The model adapter POSTs to `{base_url}/chat/completions` with `urllib`. It sends the seed and `response_format: json_object` when `json_mode` is on, and reads an API key from the environment variable named in `api_key_env`.
+- The parser strips `<think>` blocks and code fences and requires exactly one JSON object.
+- Each decision gets one repair attempt with the error message, plus up to 2 infrastructure retries before anything is committed. A decision still invalid after repair marks the episode `failed`.
+- Baselines: `never_switch`; `threshold` (95 pitches for the starter, 25 for a reliever, then the first legal reliever in pool order); `random` (seeded random legal action); `tour` (the smoke script).
+- Probes: 21 per seed, covering IP and outs, rates, count resolution, lookup timing, null versus zero, splits, legality and intentional-walk runs. The answers are generated from engine helpers.
+
+**Summary metrics.** Status, score, runs allowed, runs charged per pitcher, PA, pitches, results, hits, walks (with intentional walks listed separately), and strikeouts. Replacements, with the first replacement (or `censored`). Lookups: count, unique pitchers and batters, lineup distances, repeated queries, lookups with no later action opportunity, and paid lookups before the first replacement. Reliability: attempts, invalid attempts, infrastructure errors, tokens and latency.
+
+**Data pipeline** (synthetic only).
+- `aggregate` builds season splits (rows before `historical_before`) and a current-game prefix (rows before `branch_ts`). It drops later games and the rest of the real game, and counts every exclusion.
+- Pitch and swing means are weighted by their own `n`; rates are recomputed from numerator and denominator; `both` is `left + right`.
+- Bat speed counts only competitive swings. The ideal attack-angle band is 5–20°.
+- Zero-pitch intentional walks are stored in `pa_events.csv` and never turned into pitches.
+- `validate` checks manifest hashes, re-aggregates the raw rows to prove nothing after the cutoff reached the profiles, and checks the split identities, null-iff-zero rules, the workload window, the batting order, and the starter's prefix against the scenario.
+
+## A.5 Interpretations and deviations from Part B
+
+- `check_config` **refuses to run** with any flag that has no code behind it: steals, double plays, three-batter minimum, fatigue, `repeat_paid_query_costs_pa=false`, other advancement modes, or other providers.
+- The demo prefix's bases and score are replayed with the benchmark's deterministic runner rules, not taken from real play-by-play.
+- Workload: five completed team game-dates before the game, zero-appearance dates included. Fewer than five raises an error, because no incomplete-data cohort exists yet. The synthetic data never produces `unavailable` days.
+- `days_since_last_il_return`, `il_history_status` and `roster_available` are hand-set synthetic values in `data.DEMO_HEALTH`.
+- `notes` replace the previous notes when an action includes them, and leaving them out keeps the old notes. `notes` are left out of the `action` event but kept in the checkpoint.
+- In the `random` baseline, every legal switch is a separate option, so it switches more often than it would with uniform action types.
+- Part B §6 also lists dataset splits, team metadata and curriculum generation as `data.py` responsibilities. None of these exist yet.
+
+## A.6 Not implemented
+
+- Real-data import (Statcast or another source), field and unit verification (IVB versus gravity-included drop, horizontal break sign), and a crosswalk.
+- The team and franchise identity table (§8.1), chronological train/dev/test splits (§8.5), and division sampling (§8.4).
+- A multi-scenario, multi-seed comparison runner; analysis across episodes; search-pattern metrics (several pitchers per batter versus several batters per pitcher); matched single-decision sensitivity probes.
+- A curriculum or SFT data generator, and any training code.
+- Any run against a real model endpoint. `model.model` is `null` in `config.json`.
+- Fatigue, shape-conditioned probabilities, steals, double plays, the three-batter minimum, extra-inning runner, walk-offs, and full-game mode.
+
+## A.7 Next up
+
+- **Data specs (branch `data-specs`).** Decide the real-data source and season range, verify source fields, extend the pitch registry, map unsupported events (HBP, errors, fielder's choice, interference), define team identity, and write cutoff and split rules. Then build one frozen real-data snapshot that passes `data.py validate`.
+- **Open decisions** are Part B §11. None have been resolved since the handoff.
+
+---
+
+# Part B — Design handoff v0.3 (unchanged spec)
 
 Implementation handoff for Claude Code · 2026-10-21 · design version 0.3
 
