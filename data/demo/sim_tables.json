@@ -1,0 +1,426 @@
+{
+ "batters": {
+  "batter_01": {
+   "left": {
+    "balls": 36,
+    "fouls": 16,
+    "hits": 7,
+    "in_play_outs": 14,
+    "strikes": 26
+   },
+   "right": {
+    "balls": 134,
+    "fouls": 80,
+    "hits": 30,
+    "in_play_outs": 55,
+    "strikes": 114
+   }
+  },
+  "batter_02": {
+   "left": {
+    "balls": 35,
+    "fouls": 17,
+    "hits": 8,
+    "in_play_outs": 17,
+    "strikes": 22
+   },
+   "right": {
+    "balls": 142,
+    "fouls": 80,
+    "hits": 24,
+    "in_play_outs": 47,
+    "strikes": 100
+   }
+  },
+  "batter_03": {
+   "left": {
+    "balls": 28,
+    "fouls": 17,
+    "hits": 7,
+    "in_play_outs": 16,
+    "strikes": 40
+   },
+   "right": {
+    "balls": 97,
+    "fouls": 68,
+    "hits": 25,
+    "in_play_outs": 50,
+    "strikes": 110
+   }
+  },
+  "batter_04": {
+   "left": {
+    "balls": 42,
+    "fouls": 19,
+    "hits": 11,
+    "in_play_outs": 20,
+    "strikes": 39
+   },
+   "right": {
+    "balls": 150,
+    "fouls": 61,
+    "hits": 28,
+    "in_play_outs": 41,
+    "strikes": 94
+   }
+  },
+  "batter_05": {
+   "left": {
+    "balls": 34,
+    "fouls": 12,
+    "hits": 6,
+    "in_play_outs": 14,
+    "strikes": 22
+   },
+   "right": {
+    "balls": 122,
+    "fouls": 70,
+    "hits": 22,
+    "in_play_outs": 62,
+    "strikes": 111
+   }
+  },
+  "batter_06": {
+   "left": {
+    "balls": 56,
+    "fouls": 28,
+    "hits": 10,
+    "in_play_outs": 24,
+    "strikes": 40
+   },
+   "right": {
+    "balls": 128,
+    "fouls": 79,
+    "hits": 17,
+    "in_play_outs": 51,
+    "strikes": 89
+   }
+  },
+  "batter_07": {
+   "left": {
+    "balls": 24,
+    "fouls": 20,
+    "hits": 3,
+    "in_play_outs": 17,
+    "strikes": 33
+   },
+   "right": {
+    "balls": 121,
+    "fouls": 62,
+    "hits": 26,
+    "in_play_outs": 59,
+    "strikes": 105
+   }
+  },
+  "batter_08": {
+   "left": {
+    "balls": 41,
+    "fouls": 10,
+    "hits": 5,
+    "in_play_outs": 17,
+    "strikes": 18
+   },
+   "right": {
+    "balls": 143,
+    "fouls": 75,
+    "hits": 18,
+    "in_play_outs": 74,
+    "strikes": 94
+   }
+  },
+  "batter_09": {
+   "left": {
+    "balls": 51,
+    "fouls": 24,
+    "hits": 12,
+    "in_play_outs": 21,
+    "strikes": 29
+   },
+   "right": {
+    "balls": 127,
+    "fouls": 72,
+    "hits": 20,
+    "in_play_outs": 59,
+    "strikes": 76
+   }
+  }
+ },
+ "hit_type_counts": {
+  "double": 81,
+  "home_run": 60,
+  "single": 280,
+  "triple": 10
+ },
+ "pitcher_throws": {
+  "pitcher_01": "R",
+  "reliever_02": "L",
+  "reliever_03": "R",
+  "reliever_04": "R",
+  "reliever_05": "L",
+  "reliever_06": "R",
+  "reliever_07": "R"
+ },
+ "pitchers": {
+  "pitcher_01": {
+   "left": {
+    "CH": {
+     "balls": 42,
+     "fouls": 22,
+     "hits": 14,
+     "in_play_outs": 20,
+     "strikes": 27
+    },
+    "FF": {
+     "balls": 83,
+     "fouls": 43,
+     "hits": 14,
+     "in_play_outs": 28,
+     "strikes": 59
+    },
+    "SL": {
+     "balls": 50,
+     "fouls": 29,
+     "hits": 10,
+     "in_play_outs": 23,
+     "strikes": 37
+    }
+   },
+   "right": {
+    "CH": {
+     "balls": 25,
+     "fouls": 6,
+     "hits": 6,
+     "in_play_outs": 7,
+     "strikes": 23
+    },
+    "FF": {
+     "balls": 67,
+     "fouls": 22,
+     "hits": 3,
+     "in_play_outs": 20,
+     "strikes": 32
+    },
+    "SL": {
+     "balls": 31,
+     "fouls": 12,
+     "hits": 3,
+     "in_play_outs": 13,
+     "strikes": 26
+    }
+   }
+  },
+  "reliever_02": {
+   "left": {
+    "FF": {
+     "balls": 15,
+     "fouls": 11,
+     "hits": 6,
+     "in_play_outs": 10,
+     "strikes": 14
+    },
+    "SL": {
+     "balls": 17,
+     "fouls": 3,
+     "hits": 2,
+     "in_play_outs": 8,
+     "strikes": 10
+    }
+   },
+   "right": {
+    "FF": {
+     "balls": 34,
+     "fouls": 20,
+     "hits": 4,
+     "in_play_outs": 16,
+     "strikes": 33
+    },
+    "SL": {
+     "balls": 16,
+     "fouls": 18,
+     "hits": 5,
+     "in_play_outs": 14,
+     "strikes": 24
+    }
+   }
+  },
+  "reliever_03": {
+   "left": {
+    "SI": {
+     "balls": 35,
+     "fouls": 23,
+     "hits": 4,
+     "in_play_outs": 15,
+     "strikes": 22
+    },
+    "SL": {
+     "balls": 31,
+     "fouls": 19,
+     "hits": 8,
+     "in_play_outs": 15,
+     "strikes": 25
+    }
+   },
+   "right": {
+    "SI": {
+     "balls": 18,
+     "fouls": 6,
+     "hits": 2,
+     "in_play_outs": 9,
+     "strikes": 13
+    },
+    "SL": {
+     "balls": 11,
+     "fouls": 7,
+     "hits": 4,
+     "in_play_outs": 6,
+     "strikes": 12
+    }
+   }
+  },
+  "reliever_04": {
+   "left": {
+    "CU": {
+     "balls": 32,
+     "fouls": 10,
+     "hits": 7,
+     "in_play_outs": 9,
+     "strikes": 16
+    },
+    "FF": {
+     "balls": 70,
+     "fouls": 30,
+     "hits": 6,
+     "in_play_outs": 23,
+     "strikes": 37
+    }
+   },
+   "right": {
+    "CU": {
+     "balls": 16,
+     "fouls": 5,
+     "hits": 3,
+     "in_play_outs": 5,
+     "strikes": 7
+    },
+    "FF": {
+     "balls": 21,
+     "fouls": 7,
+     "hits": 4,
+     "in_play_outs": 8,
+     "strikes": 18
+    }
+   }
+  },
+  "reliever_05": {
+   "left": {
+    "CH": {
+     "balls": 19,
+     "fouls": 11,
+     "hits": 4,
+     "in_play_outs": 8,
+     "strikes": 13
+    },
+    "SI": {
+     "balls": 39,
+     "fouls": 17,
+     "hits": 2,
+     "in_play_outs": 13,
+     "strikes": 18
+    }
+   },
+   "right": {
+    "CH": {
+     "balls": 33,
+     "fouls": 6,
+     "hits": 4,
+     "in_play_outs": 13,
+     "strikes": 23
+    },
+    "SI": {
+     "balls": 37,
+     "fouls": 26,
+     "hits": 7,
+     "in_play_outs": 15,
+     "strikes": 30
+    }
+   }
+  },
+  "reliever_06": {
+   "left": {
+    "FC": {
+     "balls": 47,
+     "fouls": 25,
+     "hits": 8,
+     "in_play_outs": 20,
+     "strikes": 41
+    },
+    "SL": {
+     "balls": 37,
+     "fouls": 18,
+     "hits": 4,
+     "in_play_outs": 18,
+     "strikes": 35
+    }
+   },
+   "right": {
+    "FC": {
+     "balls": 18,
+     "fouls": 8,
+     "hits": 2,
+     "in_play_outs": 10,
+     "strikes": 24
+    },
+    "SL": {
+     "balls": 31,
+     "fouls": 13,
+     "hits": 4,
+     "in_play_outs": 12,
+     "strikes": 13
+    }
+   }
+  },
+  "reliever_07": {
+   "left": {
+    "FF": {
+     "balls": 23,
+     "fouls": 13,
+     "hits": 5,
+     "in_play_outs": 6,
+     "strikes": 16
+    },
+    "SL": {
+     "balls": 30,
+     "fouls": 8,
+     "hits": 9,
+     "in_play_outs": 9,
+     "strikes": 9
+    }
+   },
+   "right": {
+    "FF": {
+     "balls": 12,
+     "fouls": 7,
+     "hits": 1,
+     "in_play_outs": 8,
+     "strikes": 8
+    },
+    "SL": {
+     "balls": 10,
+     "fouls": 7,
+     "hits": 1,
+     "in_play_outs": 3,
+     "strikes": 10
+    }
+   }
+  }
+ },
+ "provider": "pooled_frequency",
+ "reference_counts": {
+  "balls": 2433,
+  "fouls": 1246,
+  "hits": 431,
+  "in_play_outs": 1032,
+  "strikes": 1818
+ },
+ "synthetic": true
+}

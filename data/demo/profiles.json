@@ -1,0 +1,7781 @@
+{
+ "batters": {
+  "batter_01": {
+   "bats": "L",
+   "display_name": "Demo Batter 01",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 2,
+      "fouls": 1,
+      "hits": 2,
+      "in_play_outs": 1,
+      "strikes": 2
+     },
+     "pitch_count": 8,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 10.66,
+       "n": 5
+      },
+      "bat_speed_mph": {
+       "mean": 69.925,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 5,
+       "numerator": 3,
+       "value": 0.6
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.150000000000006,
+       "n": 4
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 2,
+      "fouls": 1,
+      "hits": 2,
+      "in_play_outs": 1,
+      "strikes": 2
+     },
+     "pitch_count": 8,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 10.66,
+       "n": 5
+      },
+      "bat_speed_mph": {
+       "mean": 69.925,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 5,
+       "numerator": 3,
+       "value": 0.6
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.150000000000006,
+       "n": 4
+      }
+     }
+    }
+   },
+   "player_id": "batter_01",
+   "season": {
+    "both": {
+     "completed_pa": 150,
+     "intentional_walks": 3,
+     "outcomes": {
+      "balls": 168,
+      "fouls": 95,
+      "hits": 35,
+      "in_play_outs": 68,
+      "strikes": 138
+     },
+     "pitch_count": 504,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 8.799588477366257,
+       "n": 243
+      },
+      "bat_speed_mph": {
+       "mean": 70.86866359447004,
+       "n": 217
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 243,
+       "numerator": 168,
+       "value": 0.691358024691358
+      },
+      "swing_path_tilt_deg": {
+       "mean": 30.87269076305221,
+       "n": 249
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 29,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 36,
+      "fouls": 16,
+      "hits": 7,
+      "in_play_outs": 14,
+      "strikes": 26
+     },
+     "pitch_count": 99,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 8.168749999999998,
+       "n": 48
+      },
+      "bat_speed_mph": {
+       "mean": 70.59555555555556,
+       "n": 45
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 48,
+       "numerator": 31,
+       "value": 0.6458333333333334
+      },
+      "swing_path_tilt_deg": {
+       "mean": 30.268750000000008,
+       "n": 48
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 121,
+     "intentional_walks": 2,
+     "outcomes": {
+      "balls": 132,
+      "fouls": 79,
+      "hits": 28,
+      "in_play_outs": 54,
+      "strikes": 112
+     },
+     "pitch_count": 405,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 8.954871794871796,
+       "n": 195
+      },
+      "bat_speed_mph": {
+       "mean": 70.94011627906974,
+       "n": 172
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 195,
+       "numerator": 137,
+       "value": 0.7025641025641025
+      },
+      "swing_path_tilt_deg": {
+       "mean": 31.01691542288557,
+       "n": 201
+      }
+     }
+    }
+   }
+  },
+  "batter_02": {
+   "bats": "R",
+   "display_name": "Demo Batter 02",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 7,
+      "fouls": 1,
+      "hits": 0,
+      "in_play_outs": 2,
+      "strikes": 0
+     },
+     "pitch_count": 10,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 11.466666666666667,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 69.33333333333333,
+       "n": 3
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 3,
+       "value": 1.0
+      },
+      "swing_path_tilt_deg": {
+       "mean": 37.43333333333333,
+       "n": 3
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 7,
+      "fouls": 1,
+      "hits": 0,
+      "in_play_outs": 2,
+      "strikes": 0
+     },
+     "pitch_count": 10,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 11.466666666666667,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 69.33333333333333,
+       "n": 3
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 3,
+       "value": 1.0
+      },
+      "swing_path_tilt_deg": {
+       "mean": 37.43333333333333,
+       "n": 3
+      }
+     }
+    }
+   },
+   "player_id": "batter_02",
+   "season": {
+    "both": {
+     "completed_pa": 147,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 170,
+      "fouls": 96,
+      "hits": 32,
+      "in_play_outs": 62,
+      "strikes": 122
+     },
+     "pitch_count": 482,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 7.6077868852459005,
+       "n": 244
+      },
+      "bat_speed_mph": {
+       "mean": 69.02364532019702,
+       "n": 203
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 244,
+       "numerator": 162,
+       "value": 0.6639344262295082
+      },
+      "swing_path_tilt_deg": {
+       "mean": 32.637551020408154,
+       "n": 245
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 35,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 35,
+      "fouls": 17,
+      "hits": 8,
+      "in_play_outs": 17,
+      "strikes": 22
+     },
+     "pitch_count": 99,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 8.04107142857143,
+       "n": 56
+      },
+      "bat_speed_mph": {
+       "mean": 68.89555555555557,
+       "n": 45
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 56,
+       "numerator": 37,
+       "value": 0.6607142857142857
+      },
+      "swing_path_tilt_deg": {
+       "mean": 32.09122807017544,
+       "n": 57
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 112,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 135,
+      "fouls": 79,
+      "hits": 24,
+      "in_play_outs": 45,
+      "strikes": 100
+     },
+     "pitch_count": 383,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 7.478723404255318,
+       "n": 188
+      },
+      "bat_speed_mph": {
+       "mean": 69.06012658227844,
+       "n": 158
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 188,
+       "numerator": 125,
+       "value": 0.6648936170212766
+      },
+      "swing_path_tilt_deg": {
+       "mean": 32.803191489361694,
+       "n": 188
+      }
+     }
+    }
+   }
+  },
+  "batter_03": {
+   "bats": "S",
+   "display_name": "Demo Batter 03",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 1,
+      "fouls": 1,
+      "hits": 1,
+      "in_play_outs": 1,
+      "strikes": 4
+     },
+     "pitch_count": 8,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 8.919999999999998,
+       "n": 5
+      },
+      "bat_speed_mph": {
+       "mean": 73.55999999999999,
+       "n": 5
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 5,
+       "numerator": 4,
+       "value": 0.8
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.68,
+       "n": 5
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 1,
+      "fouls": 1,
+      "hits": 1,
+      "in_play_outs": 1,
+      "strikes": 4
+     },
+     "pitch_count": 8,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 8.919999999999998,
+       "n": 5
+      },
+      "bat_speed_mph": {
+       "mean": 73.55999999999999,
+       "n": 5
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 5,
+       "numerator": 4,
+       "value": 0.8
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.68,
+       "n": 5
+      }
+     }
+    }
+   },
+   "player_id": "batter_03",
+   "season": {
+    "both": {
+     "completed_pa": 146,
+     "intentional_walks": 2,
+     "outcomes": {
+      "balls": 124,
+      "fouls": 84,
+      "hits": 31,
+      "in_play_outs": 65,
+      "strikes": 146
+     },
+     "pitch_count": 450,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 11.43836206896552,
+       "n": 232
+      },
+      "bat_speed_mph": {
+       "mean": 72.39512195121948,
+       "n": 205
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 232,
+       "numerator": 187,
+       "value": 0.8060344827586207
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.784937238493733,
+       "n": 239
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 37,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 28,
+      "fouls": 17,
+      "hits": 7,
+      "in_play_outs": 16,
+      "strikes": 40
+     },
+     "pitch_count": 108,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 11.11346153846154,
+       "n": 52
+      },
+      "bat_speed_mph": {
+       "mean": 72.95581395348837,
+       "n": 43
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 52,
+       "numerator": 41,
+       "value": 0.7884615384615384
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.947272727272725,
+       "n": 55
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 109,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 96,
+      "fouls": 67,
+      "hits": 24,
+      "in_play_outs": 49,
+      "strikes": 106
+     },
+     "pitch_count": 342,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 11.532222222222224,
+       "n": 180
+      },
+      "bat_speed_mph": {
+       "mean": 72.24629629629626,
+       "n": 162
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 180,
+       "numerator": 146,
+       "value": 0.8111111111111111
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.736413043478272,
+       "n": 184
+      }
+     }
+    }
+   }
+  },
+  "batter_04": {
+   "bats": "R",
+   "display_name": "Demo Batter 04",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 5,
+      "fouls": 1,
+      "hits": 0,
+      "in_play_outs": 2,
+      "strikes": 1
+     },
+     "pitch_count": 9,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 13.25,
+       "n": 4
+      },
+      "bat_speed_mph": {
+       "mean": 75.35,
+       "n": 2
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 4,
+       "numerator": 3,
+       "value": 0.75
+      },
+      "swing_path_tilt_deg": {
+       "mean": 35.56666666666667,
+       "n": 3
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 5,
+      "fouls": 1,
+      "hits": 0,
+      "in_play_outs": 2,
+      "strikes": 1
+     },
+     "pitch_count": 9,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 13.25,
+       "n": 4
+      },
+      "bat_speed_mph": {
+       "mean": 75.35,
+       "n": 2
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 4,
+       "numerator": 3,
+       "value": 0.75
+      },
+      "swing_path_tilt_deg": {
+       "mean": 35.56666666666667,
+       "n": 3
+      }
+     }
+    }
+   },
+   "player_id": "batter_04",
+   "season": {
+    "both": {
+     "completed_pa": 147,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 187,
+      "fouls": 79,
+      "hits": 39,
+      "in_play_outs": 59,
+      "strikes": 132
+     },
+     "pitch_count": 496,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 13.114537444933923,
+       "n": 227
+      },
+      "bat_speed_mph": {
+       "mean": 75.28673469387758,
+       "n": 196
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 227,
+       "numerator": 174,
+       "value": 0.7665198237885462
+      },
+      "swing_path_tilt_deg": {
+       "mean": 35.39692982456142,
+       "n": 228
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 42,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 42,
+      "fouls": 19,
+      "hits": 11,
+      "in_play_outs": 20,
+      "strikes": 39
+     },
+     "pitch_count": 131,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 12.223529411764709,
+       "n": 68
+      },
+      "bat_speed_mph": {
+       "mean": 75.20500000000001,
+       "n": 60
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 68,
+       "numerator": 51,
+       "value": 0.75
+      },
+      "swing_path_tilt_deg": {
+       "mean": 35.79285714285715,
+       "n": 70
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 105,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 145,
+      "fouls": 60,
+      "hits": 28,
+      "in_play_outs": 39,
+      "strikes": 93
+     },
+     "pitch_count": 365,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 13.49559748427673,
+       "n": 159
+      },
+      "bat_speed_mph": {
+       "mean": 75.32279411764708,
+       "n": 136
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 159,
+       "numerator": 123,
+       "value": 0.7735849056603774
+      },
+      "swing_path_tilt_deg": {
+       "mean": 35.221518987341796,
+       "n": 158
+      }
+     }
+    }
+   }
+  },
+  "batter_05": {
+   "bats": "L",
+   "display_name": "Demo Batter 05",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 2,
+      "fouls": 1,
+      "hits": 1,
+      "in_play_outs": 1,
+      "strikes": 2
+     },
+     "pitch_count": 7,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 12.850000000000001,
+       "n": 4
+      },
+      "bat_speed_mph": {
+       "mean": 74.45,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 4,
+       "numerator": 2,
+       "value": 0.5
+      },
+      "swing_path_tilt_deg": {
+       "mean": 27.675,
+       "n": 4
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 3,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 2,
+      "fouls": 1,
+      "hits": 1,
+      "in_play_outs": 1,
+      "strikes": 2
+     },
+     "pitch_count": 7,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 12.850000000000001,
+       "n": 4
+      },
+      "bat_speed_mph": {
+       "mean": 74.45,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 4,
+       "numerator": 2,
+       "value": 0.5
+      },
+      "swing_path_tilt_deg": {
+       "mean": 27.675,
+       "n": 4
+      }
+     }
+    }
+   },
+   "player_id": "batter_05",
+   "season": {
+    "both": {
+     "completed_pa": 147,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 154,
+      "fouls": 81,
+      "hits": 27,
+      "in_play_outs": 75,
+      "strikes": 131
+     },
+     "pitch_count": 468,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 12.10945945945946,
+       "n": 222
+      },
+      "bat_speed_mph": {
+       "mean": 73.74041450777199,
+       "n": 193
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 222,
+       "numerator": 177,
+       "value": 0.7972972972972973
+      },
+      "swing_path_tilt_deg": {
+       "mean": 28.981614349775793,
+       "n": 223
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 29,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 34,
+      "fouls": 12,
+      "hits": 6,
+      "in_play_outs": 14,
+      "strikes": 22
+     },
+     "pitch_count": 88,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 12.585365853658537,
+       "n": 41
+      },
+      "bat_speed_mph": {
+       "mean": 73.55499999999998,
+       "n": 40
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 41,
+       "numerator": 31,
+       "value": 0.7560975609756098
+      },
+      "swing_path_tilt_deg": {
+       "mean": 27.853846153846145,
+       "n": 39
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 118,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 120,
+      "fouls": 69,
+      "hits": 21,
+      "in_play_outs": 61,
+      "strikes": 109
+     },
+     "pitch_count": 380,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 12.001657458563537,
+       "n": 181
+      },
+      "bat_speed_mph": {
+       "mean": 73.78888888888886,
+       "n": 153
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 181,
+       "numerator": 146,
+       "value": 0.8066298342541437
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.220652173913056,
+       "n": 184
+      }
+     }
+    }
+   }
+  },
+  "batter_06": {
+   "bats": "R",
+   "display_name": "Demo Batter 06",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 1,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 2,
+      "strikes": 1
+     },
+     "pitch_count": 4,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 4.333333333333333,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 70.43333333333334,
+       "n": 3
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 2,
+       "value": 0.6666666666666666
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.93333333333333,
+       "n": 3
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 1,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 2,
+      "strikes": 1
+     },
+     "pitch_count": 4,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 4.333333333333333,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 70.43333333333334,
+       "n": 3
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 2,
+       "value": 0.6666666666666666
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.93333333333333,
+       "n": 3
+      }
+     }
+    }
+   },
+   "player_id": "batter_06",
+   "season": {
+    "both": {
+     "completed_pa": 150,
+     "intentional_walks": 2,
+     "outcomes": {
+      "balls": 183,
+      "fouls": 107,
+      "hits": 27,
+      "in_play_outs": 73,
+      "strikes": 128
+     },
+     "pitch_count": 518,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 7.241035856573709,
+       "n": 251
+      },
+      "bat_speed_mph": {
+       "mean": 70.87136150234737,
+       "n": 213
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 251,
+       "numerator": 167,
+       "value": 0.6653386454183267
+      },
+      "swing_path_tilt_deg": {
+       "mean": 33.61067193675892,
+       "n": 253
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 47,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 56,
+      "fouls": 28,
+      "hits": 10,
+      "in_play_outs": 24,
+      "strikes": 40
+     },
+     "pitch_count": 158,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 6.698666666666668,
+       "n": 75
+      },
+      "bat_speed_mph": {
+       "mean": 71.57333333333335,
+       "n": 60
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 75,
+       "numerator": 47,
+       "value": 0.6266666666666667
+      },
+      "swing_path_tilt_deg": {
+       "mean": 33.87894736842105,
+       "n": 76
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 103,
+     "intentional_walks": 2,
+     "outcomes": {
+      "balls": 127,
+      "fouls": 79,
+      "hits": 17,
+      "in_play_outs": 49,
+      "strikes": 88
+     },
+     "pitch_count": 360,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 7.472159090909096,
+       "n": 176
+      },
+      "bat_speed_mph": {
+       "mean": 70.59607843137248,
+       "n": 153
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 176,
+       "numerator": 120,
+       "value": 0.6818181818181818
+      },
+      "swing_path_tilt_deg": {
+       "mean": 33.49548022598874,
+       "n": 177
+      }
+     }
+    }
+   }
+  },
+  "batter_07": {
+   "bats": "L",
+   "display_name": "Demo Batter 07",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 1,
+      "fouls": 4,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 4
+     },
+     "pitch_count": 9,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 6.85,
+       "n": 4
+      },
+      "bat_speed_mph": {
+       "mean": 66.75,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 4,
+       "numerator": 2,
+       "value": 0.5
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.674999999999997,
+       "n": 4
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 1,
+      "fouls": 4,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 4
+     },
+     "pitch_count": 9,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 6.85,
+       "n": 4
+      },
+      "bat_speed_mph": {
+       "mean": 66.75,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 4,
+       "numerator": 2,
+       "value": 0.5
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.674999999999997,
+       "n": 4
+      }
+     }
+    }
+   },
+   "player_id": "batter_07",
+   "season": {
+    "both": {
+     "completed_pa": 147,
+     "intentional_walks": 3,
+     "outcomes": {
+      "balls": 144,
+      "fouls": 78,
+      "hits": 29,
+      "in_play_outs": 76,
+      "strikes": 134
+     },
+     "pitch_count": 461,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 5.944247787610626,
+       "n": 226
+      },
+      "bat_speed_mph": {
+       "mean": 68.31989247311827,
+       "n": 186
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 226,
+       "numerator": 127,
+       "value": 0.5619469026548672
+      },
+      "swing_path_tilt_deg": {
+       "mean": 28.185022026431714,
+       "n": 227
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 34,
+     "intentional_walks": 2,
+     "outcomes": {
+      "balls": 24,
+      "fouls": 20,
+      "hits": 3,
+      "in_play_outs": 17,
+      "strikes": 33
+     },
+     "pitch_count": 97,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 5.545098039215684,
+       "n": 51
+      },
+      "bat_speed_mph": {
+       "mean": 67.99756097560974,
+       "n": 41
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 51,
+       "numerator": 28,
+       "value": 0.5490196078431373
+      },
+      "swing_path_tilt_deg": {
+       "mean": 27.647916666666678,
+       "n": 48
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 113,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 120,
+      "fouls": 58,
+      "hits": 26,
+      "in_play_outs": 59,
+      "strikes": 101
+     },
+     "pitch_count": 364,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 6.060571428571437,
+       "n": 175
+      },
+      "bat_speed_mph": {
+       "mean": 68.41103448275861,
+       "n": 145
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 175,
+       "numerator": 99,
+       "value": 0.5657142857142857
+      },
+      "swing_path_tilt_deg": {
+       "mean": 28.329050279329604,
+       "n": 179
+      }
+     }
+    }
+   }
+  },
+  "batter_08": {
+   "bats": "R",
+   "display_name": "Demo Batter 08",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 7,
+      "fouls": 3,
+      "hits": 0,
+      "in_play_outs": 1,
+      "strikes": 2
+     },
+     "pitch_count": 13,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": -2.3333333333333335,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 66.3,
+       "n": 3
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 0,
+       "value": 0.0
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.325,
+       "n": 4
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 7,
+      "fouls": 3,
+      "hits": 0,
+      "in_play_outs": 1,
+      "strikes": 2
+     },
+     "pitch_count": 13,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": -2.3333333333333335,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 66.3,
+       "n": 3
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 0,
+       "value": 0.0
+      },
+      "swing_path_tilt_deg": {
+       "mean": 34.325,
+       "n": 4
+      }
+     }
+    }
+   },
+   "player_id": "batter_08",
+   "season": {
+    "both": {
+     "completed_pa": 149,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 177,
+      "fouls": 82,
+      "hits": 23,
+      "in_play_outs": 90,
+      "strikes": 110
+     },
+     "pitch_count": 482,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 4.429515418502205,
+       "n": 227
+      },
+      "bat_speed_mph": {
+       "mean": 67.4089552238806,
+       "n": 201
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 227,
+       "numerator": 107,
+       "value": 0.4713656387665198
+      },
+      "swing_path_tilt_deg": {
+       "mean": 31.888235294117656,
+       "n": 221
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 30,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 41,
+      "fouls": 10,
+      "hits": 5,
+      "in_play_outs": 17,
+      "strikes": 18
+     },
+     "pitch_count": 91,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 5.640540540540542,
+       "n": 37
+      },
+      "bat_speed_mph": {
+       "mean": 66.90294117647056,
+       "n": 34
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 37,
+       "numerator": 19,
+       "value": 0.5135135135135135
+      },
+      "swing_path_tilt_deg": {
+       "mean": 32.739473684210544,
+       "n": 38
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 119,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 136,
+      "fouls": 72,
+      "hits": 18,
+      "in_play_outs": 73,
+      "strikes": 92
+     },
+     "pitch_count": 391,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 4.193684210526318,
+       "n": 190
+      },
+      "bat_speed_mph": {
+       "mean": 67.5119760479042,
+       "n": 167
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 190,
+       "numerator": 88,
+       "value": 0.4631578947368421
+      },
+      "swing_path_tilt_deg": {
+       "mean": 31.711475409836076,
+       "n": 183
+      }
+     }
+    }
+   }
+  },
+  "batter_09": {
+   "bats": "S",
+   "display_name": "Demo Batter 09",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 2,
+      "fouls": 4,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 3
+     },
+     "pitch_count": 9,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 1.4000000000000001,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 68.57499999999999,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 0,
+       "value": 0.0
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.674999999999997,
+       "n": 4
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": null,
+       "n": 0
+      },
+      "bat_speed_mph": {
+       "mean": null,
+       "n": 0
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 0,
+       "numerator": 0,
+       "value": null
+      },
+      "swing_path_tilt_deg": {
+       "mean": null,
+       "n": 0
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 2,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 2,
+      "fouls": 4,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 3
+     },
+     "pitch_count": 9,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 1.4000000000000001,
+       "n": 3
+      },
+      "bat_speed_mph": {
+       "mean": 68.57499999999999,
+       "n": 4
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 3,
+       "numerator": 0,
+       "value": 0.0
+      },
+      "swing_path_tilt_deg": {
+       "mean": 29.674999999999997,
+       "n": 4
+      }
+     }
+    }
+   },
+   "player_id": "batter_09",
+   "season": {
+    "both": {
+     "completed_pa": 148,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 176,
+      "fouls": 92,
+      "hits": 32,
+      "in_play_outs": 80,
+      "strikes": 102
+     },
+     "pitch_count": 482,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 4.359913793103447,
+       "n": 232
+      },
+      "bat_speed_mph": {
+       "mean": 66.5758793969849,
+       "n": 199
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 232,
+       "numerator": 114,
+       "value": 0.49137931034482757
+      },
+      "swing_path_tilt_deg": {
+       "mean": 30.40128755364806,
+       "n": 233
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 44,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 51,
+      "fouls": 24,
+      "hits": 12,
+      "in_play_outs": 21,
+      "strikes": 29
+     },
+     "pitch_count": 137,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 3.7430769230769236,
+       "n": 65
+      },
+      "bat_speed_mph": {
+       "mean": 66.02037037037036,
+       "n": 54
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 65,
+       "numerator": 29,
+       "value": 0.4461538461538462
+      },
+      "swing_path_tilt_deg": {
+       "mean": 30.195238095238086,
+       "n": 63
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 104,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 125,
+      "fouls": 68,
+      "hits": 20,
+      "in_play_outs": 59,
+      "strikes": 73
+     },
+     "pitch_count": 345,
+     "swing_profile": {
+      "attack_angle_deg": {
+       "mean": 4.599999999999998,
+       "n": 167
+      },
+      "bat_speed_mph": {
+       "mean": 66.78275862068963,
+       "n": 145
+      },
+      "ideal_attack_angle_rate": {
+       "denominator": 167,
+       "numerator": 85,
+       "value": 0.5089820359281437
+      },
+      "swing_path_tilt_deg": {
+       "mean": 30.47764705882352,
+       "n": 170
+      }
+     }
+    }
+   }
+  }
+ },
+ "pitchers": {
+  "pitcher_01": {
+   "display_name": "Demo Pitcher 01",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 23,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 28,
+      "fouls": 16,
+      "hits": 4,
+      "in_play_outs": 10,
+      "strikes": 19
+     },
+     "pitch_count": 77,
+     "pitch_types": {
+      "CH": {
+       "count": 12,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -14.325000000000001,
+         "n": 12
+        },
+        "ivb_in": {
+         "mean": 7.658333333333334,
+         "n": 12
+        },
+        "velocity_mph": {
+         "mean": 85.99166666666667,
+         "n": 12
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 45,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -8.422222222222222,
+         "n": 45
+        },
+        "ivb_in": {
+         "mean": 15.928571428571429,
+         "n": 42
+        },
+        "velocity_mph": {
+         "mean": 94.77000000000001,
+         "n": 40
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 20,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.07,
+         "n": 20
+        },
+        "ivb_in": {
+         "mean": 1.4400000000000002,
+         "n": 20
+        },
+        "velocity_mph": {
+         "mean": 85.32105263157895,
+         "n": 19
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 13,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 8,
+      "fouls": 11,
+      "hits": 4,
+      "in_play_outs": 3,
+      "strikes": 15
+     },
+     "pitch_count": 41,
+     "pitch_types": {
+      "CH": {
+       "count": 6,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -14.083333333333334,
+         "n": 6
+        },
+        "ivb_in": {
+         "mean": 8.05,
+         "n": 6
+        },
+        "velocity_mph": {
+         "mean": 85.98333333333333,
+         "n": 6
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 20,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -8.454999999999998,
+         "n": 20
+        },
+        "ivb_in": {
+         "mean": 15.973684210526319,
+         "n": 19
+        },
+        "velocity_mph": {
+         "mean": 94.74444444444444,
+         "n": 18
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 15,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 4.966666666666668,
+         "n": 15
+        },
+        "ivb_in": {
+         "mean": 1.4600000000000002,
+         "n": 15
+        },
+        "velocity_mph": {
+         "mean": 85.49285714285715,
+         "n": 14
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 10,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 20,
+      "fouls": 5,
+      "hits": 0,
+      "in_play_outs": 7,
+      "strikes": 4
+     },
+     "pitch_count": 36,
+     "pitch_types": {
+      "CH": {
+       "count": 6,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -14.566666666666668,
+         "n": 6
+        },
+        "ivb_in": {
+         "mean": 7.266666666666667,
+         "n": 6
+        },
+        "velocity_mph": {
+         "mean": 86.0,
+         "n": 6
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 25,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -8.396,
+         "n": 25
+        },
+        "ivb_in": {
+         "mean": 15.891304347826088,
+         "n": 23
+        },
+        "velocity_mph": {
+         "mean": 94.7909090909091,
+         "n": 22
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 5,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.38,
+         "n": 5
+        },
+        "ivb_in": {
+         "mean": 1.3800000000000001,
+         "n": 5
+        },
+        "velocity_mph": {
+         "mean": 84.84,
+         "n": 5
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "player_id": "pitcher_01",
+   "season": {
+    "both": {
+     "completed_pa": 217,
+     "intentional_walks": 3,
+     "outcomes": {
+      "balls": 270,
+      "fouls": 118,
+      "hits": 46,
+      "in_play_outs": 101,
+      "strikes": 185
+     },
+     "pitch_count": 720,
+     "pitch_types": {
+      "CH": {
+       "count": 180,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -13.93809523809524,
+         "n": 168
+        },
+        "ivb_in": {
+         "mean": 7.488636363636365,
+         "n": 176
+        },
+        "velocity_mph": {
+         "mean": 86.29080459770117,
+         "n": 174
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 326,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -8.147468354430387,
+         "n": 316
+        },
+        "ivb_in": {
+         "mean": 16.248076923076912,
+         "n": 312
+        },
+        "velocity_mph": {
+         "mean": 94.65786163522014,
+         "n": 318
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 214,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.2975845410628,
+         "n": 207
+        },
+        "ivb_in": {
+         "mean": 1.839024390243902,
+         "n": 205
+        },
+        "velocity_mph": {
+         "mean": 85.49567307692305,
+         "n": 208
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 143,
+     "intentional_walks": 3,
+     "outcomes": {
+      "balls": 167,
+      "fouls": 83,
+      "hits": 34,
+      "in_play_outs": 68,
+      "strikes": 108
+     },
+     "pitch_count": 460,
+     "pitch_types": {
+      "CH": {
+       "count": 119,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -13.869642857142859,
+         "n": 112
+        },
+        "ivb_in": {
+         "mean": 7.5591304347826105,
+         "n": 115
+        },
+        "velocity_mph": {
+         "mean": 86.31120689655171,
+         "n": 116
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 207,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -8.096517412935338,
+         "n": 201
+        },
+        "ivb_in": {
+         "mean": 16.26785714285712,
+         "n": 196
+        },
+        "velocity_mph": {
+         "mean": 94.63930348258707,
+         "n": 201
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 134,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.29242424242424,
+         "n": 132
+        },
+        "ivb_in": {
+         "mean": 1.86875,
+         "n": 128
+        },
+        "velocity_mph": {
+         "mean": 85.42769230769228,
+         "n": 130
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 74,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 103,
+      "fouls": 35,
+      "hits": 12,
+      "in_play_outs": 33,
+      "strikes": 77
+     },
+     "pitch_count": 260,
+     "pitch_types": {
+      "CH": {
+       "count": 61,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -14.075000000000003,
+         "n": 56
+        },
+        "ivb_in": {
+         "mean": 7.355737704918033,
+         "n": 61
+        },
+        "velocity_mph": {
+         "mean": 86.25000000000006,
+         "n": 58
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 119,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -8.236521739130428,
+         "n": 115
+        },
+        "ivb_in": {
+         "mean": 16.214655172413796,
+         "n": 116
+        },
+        "velocity_mph": {
+         "mean": 94.68974358974361,
+         "n": 117
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 80,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.3066666666666675,
+         "n": 75
+        },
+        "ivb_in": {
+         "mean": 1.789610389610389,
+         "n": 77
+        },
+        "velocity_mph": {
+         "mean": 85.60897435897435,
+         "n": 78
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "throws": "R",
+   "usage_health": {
+    "days_since_last_il_return": null,
+    "il_history_status": "no_recorded_stint",
+    "last_five_team_game_days": [
+     {
+      "data_status": "known",
+      "date": "2025-06-05",
+      "game_ids": [
+       "g_2025-06-05"
+      ],
+      "ip_display": "5.0",
+      "outs_recorded": 15
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-06",
+      "game_ids": [
+       "g_2025-06-06"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-07",
+      "game_ids": [
+       "g_2025-06-07"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-08",
+      "game_ids": [
+       "g_2025-06-08"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-09",
+      "game_ids": [
+       "g_2025-06-09"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     }
+    ],
+    "roster_available": true,
+    "season_outs_before_game": 144
+   }
+  },
+  "reliever_02": {
+   "display_name": "Demo Reliever 02",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "player_id": "reliever_02",
+   "season": {
+    "both": {
+     "completed_pa": 89,
+     "intentional_walks": 2,
+     "outcomes": {
+      "balls": 82,
+      "fouls": 52,
+      "hits": 17,
+      "in_play_outs": 48,
+      "strikes": 81
+     },
+     "pitch_count": 280,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 163,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 7.649685534591196,
+         "n": 159
+        },
+        "ivb_in": {
+         "mean": 17.175316455696198,
+         "n": 158
+        },
+        "velocity_mph": {
+         "mean": 93.83207547169809,
+         "n": 159
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 117,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -6.801754385964913,
+         "n": 114
+        },
+        "ivb_in": {
+         "mean": 0.6330434782608699,
+         "n": 115
+        },
+        "velocity_mph": {
+         "mean": 84.03125,
+         "n": 112
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 31,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 32,
+      "fouls": 14,
+      "hits": 8,
+      "in_play_outs": 18,
+      "strikes": 24
+     },
+     "pitch_count": 96,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 56,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 7.876923076923077,
+         "n": 52
+        },
+        "ivb_in": {
+         "mean": 17.349999999999994,
+         "n": 54
+        },
+        "velocity_mph": {
+         "mean": 93.73272727272729,
+         "n": 55
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 40,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -6.955263157894737,
+         "n": 38
+        },
+        "ivb_in": {
+         "mean": 0.5475,
+         "n": 40
+        },
+        "velocity_mph": {
+         "mean": 83.95789473684209,
+         "n": 38
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 58,
+     "intentional_walks": 2,
+     "outcomes": {
+      "balls": 50,
+      "fouls": 38,
+      "hits": 9,
+      "in_play_outs": 30,
+      "strikes": 57
+     },
+     "pitch_count": 184,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 107,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 7.539252336448601,
+         "n": 107
+        },
+        "ivb_in": {
+         "mean": 17.084615384615383,
+         "n": 104
+        },
+        "velocity_mph": {
+         "mean": 93.88461538461533,
+         "n": 104
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 77,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -6.725000000000001,
+         "n": 76
+        },
+        "ivb_in": {
+         "mean": 0.6786666666666671,
+         "n": 75
+        },
+        "velocity_mph": {
+         "mean": 84.06891891891892,
+         "n": 74
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "throws": "L",
+   "usage_health": {
+    "days_since_last_il_return": null,
+    "il_history_status": "no_recorded_stint",
+    "last_five_team_game_days": [
+     {
+      "data_status": "known",
+      "date": "2025-06-05",
+      "game_ids": [
+       "g_2025-06-05"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-06",
+      "game_ids": [
+       "g_2025-06-06"
+      ],
+      "ip_display": "1.0",
+      "outs_recorded": 3
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-07",
+      "game_ids": [
+       "g_2025-06-07"
+      ],
+      "ip_display": "1.0",
+      "outs_recorded": 3
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-08",
+      "game_ids": [
+       "g_2025-06-08"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-09",
+      "game_ids": [
+       "g_2025-06-09"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     }
+    ],
+    "roster_available": true,
+    "season_outs_before_game": 66
+   }
+  },
+  "reliever_03": {
+   "display_name": "Demo Reliever 03",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "player_id": "reliever_03",
+   "season": {
+    "both": {
+     "completed_pa": 83,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 95,
+      "fouls": 55,
+      "hits": 18,
+      "in_play_outs": 45,
+      "strikes": 72
+     },
+     "pitch_count": 285,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 147,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -16.7177304964539,
+         "n": 141
+        },
+        "ivb_in": {
+         "mean": 6.0412587412587415,
+         "n": 143
+        },
+        "velocity_mph": {
+         "mean": 95.90780141843972,
+         "n": 141
+        }
+       }
+      },
+      "SL": {
+       "count": 138,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 4.237500000000002,
+         "n": 136
+        },
+        "ivb_in": {
+         "mean": 2.213235294117647,
+         "n": 136
+        },
+        "velocity_mph": {
+         "mean": 86.73235294117646,
+         "n": 136
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 55,
+     "intentional_walks": 1,
+     "outcomes": {
+      "balls": 66,
+      "fouls": 42,
+      "hits": 12,
+      "in_play_outs": 30,
+      "strikes": 47
+     },
+     "pitch_count": 197,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 99,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -16.617021276595747,
+         "n": 94
+        },
+        "ivb_in": {
+         "mean": 6.107216494845363,
+         "n": 97
+        },
+        "velocity_mph": {
+         "mean": 95.9537634408602,
+         "n": 93
+        }
+       }
+      },
+      "SL": {
+       "count": 98,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 4.271875000000002,
+         "n": 96
+        },
+        "ivb_in": {
+         "mean": 2.2114583333333333,
+         "n": 96
+        },
+        "velocity_mph": {
+         "mean": 86.73437499999999,
+         "n": 96
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 28,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 29,
+      "fouls": 13,
+      "hits": 6,
+      "in_play_outs": 15,
+      "strikes": 25
+     },
+     "pitch_count": 88,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 48,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -16.91914893617021,
+         "n": 47
+        },
+        "ivb_in": {
+         "mean": 5.902173913043476,
+         "n": 46
+        },
+        "velocity_mph": {
+         "mean": 95.81875000000002,
+         "n": 48
+        }
+       }
+      },
+      "SL": {
+       "count": 40,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 4.1549999999999985,
+         "n": 40
+        },
+        "ivb_in": {
+         "mean": 2.2175000000000002,
+         "n": 40
+        },
+        "velocity_mph": {
+         "mean": 86.72749999999999,
+         "n": 40
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "throws": "R",
+   "usage_health": {
+    "days_since_last_il_return": 212,
+    "il_history_status": "known_return",
+    "last_five_team_game_days": [
+     {
+      "data_status": "known",
+      "date": "2025-06-05",
+      "game_ids": [
+       "g_2025-06-05"
+      ],
+      "ip_display": "0.2",
+      "outs_recorded": 2
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-06",
+      "game_ids": [
+       "g_2025-06-06"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-07",
+      "game_ids": [
+       "g_2025-06-07"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-08",
+      "game_ids": [
+       "g_2025-06-08"
+      ],
+      "ip_display": "1.0",
+      "outs_recorded": 3
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-09",
+      "game_ids": [
+       "g_2025-06-09"
+      ],
+      "ip_display": "1.1",
+      "outs_recorded": 4
+     }
+    ],
+    "roster_available": true,
+    "season_outs_before_game": 60
+   }
+  },
+  "reliever_04": {
+   "display_name": "Demo Reliever 04",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "player_id": "reliever_04",
+   "season": {
+    "both": {
+     "completed_pa": 94,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 139,
+      "fouls": 52,
+      "hits": 20,
+      "in_play_outs": 45,
+      "strikes": 78
+     },
+     "pitch_count": 334,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 110,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 8.57943925233645,
+         "n": 107
+        },
+        "ivb_in": {
+         "mean": -12.606481481481486,
+         "n": 108
+        },
+        "velocity_mph": {
+         "mean": 80.19357798165136,
+         "n": 109
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 224,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -5.954587155963304,
+         "n": 218
+        },
+        "ivb_in": {
+         "mean": 18.18127853881278,
+         "n": 219
+        },
+        "velocity_mph": {
+         "mean": 96.29906542056074,
+         "n": 214
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 68,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 102,
+      "fouls": 40,
+      "hits": 13,
+      "in_play_outs": 32,
+      "strikes": 53
+     },
+     "pitch_count": 240,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 74,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 8.58904109589041,
+         "n": 73
+        },
+        "ivb_in": {
+         "mean": -12.5054794520548,
+         "n": 73
+        },
+        "velocity_mph": {
+         "mean": 80.29729729729729,
+         "n": 74
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 166,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -6.08136645962733,
+         "n": 161
+        },
+        "ivb_in": {
+         "mean": 18.152173913043477,
+         "n": 161
+        },
+        "velocity_mph": {
+         "mean": 96.30764331210189,
+         "n": 157
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 26,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 37,
+      "fouls": 12,
+      "hits": 7,
+      "in_play_outs": 13,
+      "strikes": 25
+     },
+     "pitch_count": 94,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 36,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 8.558823529411763,
+         "n": 34
+        },
+        "ivb_in": {
+         "mean": -12.817142857142857,
+         "n": 35
+        },
+        "velocity_mph": {
+         "mean": 79.9742857142857,
+         "n": 35
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 58,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -5.596491228070176,
+         "n": 57
+        },
+        "ivb_in": {
+         "mean": 18.262068965517233,
+         "n": 58
+        },
+        "velocity_mph": {
+         "mean": 96.27543859649124,
+         "n": 57
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "throws": "R",
+   "usage_health": {
+    "days_since_last_il_return": null,
+    "il_history_status": "no_recorded_stint",
+    "last_five_team_game_days": [
+     {
+      "data_status": "known",
+      "date": "2025-06-05",
+      "game_ids": [
+       "g_2025-06-05"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-06",
+      "game_ids": [
+       "g_2025-06-06"
+      ],
+      "ip_display": "0.2",
+      "outs_recorded": 2
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-07",
+      "game_ids": [
+       "g_2025-06-07"
+      ],
+      "ip_display": "0.2",
+      "outs_recorded": 2
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-08",
+      "game_ids": [
+       "g_2025-06-08"
+      ],
+      "ip_display": "1.0",
+      "outs_recorded": 3
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-09",
+      "game_ids": [
+       "g_2025-06-09"
+      ],
+      "ip_display": "0.2",
+      "outs_recorded": 2
+     }
+    ],
+    "roster_available": true,
+    "season_outs_before_game": 63
+   }
+  },
+  "reliever_05": {
+   "display_name": "Demo Reliever 05",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "player_id": "reliever_05",
+   "season": {
+    "both": {
+     "completed_pa": 97,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 128,
+      "fouls": 60,
+      "hits": 17,
+      "in_play_outs": 49,
+      "strikes": 84
+     },
+     "pitch_count": 338,
+     "pitch_types": {
+      "CH": {
+       "count": 134,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 13.047328244274812,
+         "n": 131
+        },
+        "ivb_in": {
+         "mean": 5.15153846153846,
+         "n": 130
+        },
+        "velocity_mph": {
+         "mean": 83.88604651162792,
+         "n": 129
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 204,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 15.205583756345177,
+         "n": 197
+        },
+        "ivb_in": {
+         "mean": 7.981592039800994,
+         "n": 201
+        },
+        "velocity_mph": {
+         "mean": 92.17653061224489,
+         "n": 196
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 41,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 58,
+      "fouls": 28,
+      "hits": 6,
+      "in_play_outs": 21,
+      "strikes": 31
+     },
+     "pitch_count": 144,
+     "pitch_types": {
+      "CH": {
+       "count": 55,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 13.281481481481482,
+         "n": 54
+        },
+        "ivb_in": {
+         "mean": 5.043396226415093,
+         "n": 53
+        },
+        "velocity_mph": {
+         "mean": 83.91481481481482,
+         "n": 54
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 89,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 15.173255813953487,
+         "n": 86
+        },
+        "ivb_in": {
+         "mean": 7.954545454545453,
+         "n": 88
+        },
+        "velocity_mph": {
+         "mean": 92.36144578313254,
+         "n": 83
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 56,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 70,
+      "fouls": 32,
+      "hits": 11,
+      "in_play_outs": 28,
+      "strikes": 53
+     },
+     "pitch_count": 194,
+     "pitch_types": {
+      "CH": {
+       "count": 79,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 12.88311688311689,
+         "n": 77
+        },
+        "ivb_in": {
+         "mean": 5.225974025974025,
+         "n": 77
+        },
+        "velocity_mph": {
+         "mean": 83.86533333333337,
+         "n": 75
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 115,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 15.230630630630632,
+         "n": 111
+        },
+        "ivb_in": {
+         "mean": 8.002654867256636,
+         "n": 113
+        },
+        "velocity_mph": {
+         "mean": 92.04070796460175,
+         "n": 113
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "throws": "L",
+   "usage_health": {
+    "days_since_last_il_return": 6,
+    "il_history_status": "known_return",
+    "last_five_team_game_days": [
+     {
+      "data_status": "known",
+      "date": "2025-06-05",
+      "game_ids": [
+       "g_2025-06-05"
+      ],
+      "ip_display": "0.1",
+      "outs_recorded": 1
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-06",
+      "game_ids": [
+       "g_2025-06-06"
+      ],
+      "ip_display": "1.1",
+      "outs_recorded": 4
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-07",
+      "game_ids": [
+       "g_2025-06-07"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-08",
+      "game_ids": [
+       "g_2025-06-08"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-09",
+      "game_ids": [
+       "g_2025-06-09"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     }
+    ],
+    "roster_available": true,
+    "season_outs_before_game": 72
+   }
+  },
+  "reliever_06": {
+   "display_name": "Demo Reliever 06",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "player_id": "reliever_06",
+   "season": {
+    "both": {
+     "completed_pa": 121,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 133,
+      "fouls": 64,
+      "hits": 18,
+      "in_play_outs": 60,
+      "strikes": 113
+     },
+     "pitch_count": 388,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 203,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 2.604522613065326,
+         "n": 199
+        },
+        "ivb_in": {
+         "mean": 10.439898989898992,
+         "n": 198
+        },
+        "velocity_mph": {
+         "mean": 91.64619289340104,
+         "n": 197
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 185,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 7.302824858757061,
+         "n": 177
+        },
+        "ivb_in": {
+         "mean": 0.8717514124293783,
+         "n": 177
+        },
+        "velocity_mph": {
+         "mean": 84.75274725274727,
+         "n": 182
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 79,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 84,
+      "fouls": 43,
+      "hits": 12,
+      "in_play_outs": 38,
+      "strikes": 76
+     },
+     "pitch_count": 253,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 141,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 2.54963503649635,
+         "n": 137
+        },
+        "ivb_in": {
+         "mean": 10.469565217391308,
+         "n": 138
+        },
+        "velocity_mph": {
+         "mean": 91.6124087591241,
+         "n": 137
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 112,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 7.3500000000000005,
+         "n": 108
+        },
+        "ivb_in": {
+         "mean": 0.7961904761904758,
+         "n": 105
+        },
+        "velocity_mph": {
+         "mean": 84.67090909090912,
+         "n": 110
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 42,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 49,
+      "fouls": 21,
+      "hits": 6,
+      "in_play_outs": 22,
+      "strikes": 37
+     },
+     "pitch_count": 135,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 62,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 2.7258064516129026,
+         "n": 62
+        },
+        "ivb_in": {
+         "mean": 10.371666666666666,
+         "n": 60
+        },
+        "velocity_mph": {
+         "mean": 91.72333333333334,
+         "n": 60
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 73,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 7.228985507246376,
+         "n": 69
+        },
+        "ivb_in": {
+         "mean": 0.9819444444444445,
+         "n": 72
+        },
+        "velocity_mph": {
+         "mean": 84.87777777777778,
+         "n": 72
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "throws": "R",
+   "usage_health": {
+    "days_since_last_il_return": null,
+    "il_history_status": "unavailable",
+    "last_five_team_game_days": [
+     {
+      "data_status": "known",
+      "date": "2025-06-05",
+      "game_ids": [
+       "g_2025-06-05"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-06",
+      "game_ids": [
+       "g_2025-06-06"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-07",
+      "game_ids": [
+       "g_2025-06-07"
+      ],
+      "ip_display": "1.0",
+      "outs_recorded": 3
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-08",
+      "game_ids": [
+       "g_2025-06-08"
+      ],
+      "ip_display": "1.0",
+      "outs_recorded": 3
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-09",
+      "game_ids": [
+       "g_2025-06-09"
+      ],
+      "ip_display": "0.2",
+      "outs_recorded": 2
+     }
+    ],
+    "roster_available": true,
+    "season_outs_before_game": 91
+   }
+  },
+  "reliever_07": {
+   "display_name": "Demo Reliever 07",
+   "game_prefix": {
+    "both": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 0,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 0,
+      "fouls": 0,
+      "hits": 0,
+      "in_play_outs": 0,
+      "strikes": 0
+     },
+     "pitch_count": 0,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "player_id": "reliever_07",
+   "season": {
+    "both": {
+     "completed_pa": 57,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 75,
+      "fouls": 35,
+      "hits": 16,
+      "in_play_outs": 26,
+      "strikes": 43
+     },
+     "pitch_count": 195,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 99,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -6.780412371134021,
+         "n": 97
+        },
+        "ivb_in": {
+         "mean": 16.351546391752592,
+         "n": 97
+        },
+        "velocity_mph": {
+         "mean": 97.14545454545454,
+         "n": 99
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 96,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.451612903225808,
+         "n": 93
+        },
+        "ivb_in": {
+         "mean": 1.4042553191489369,
+         "n": 94
+        },
+        "velocity_mph": {
+         "mean": 86.96195652173914,
+         "n": 92
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "left": {
+     "completed_pa": 37,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 53,
+      "fouls": 21,
+      "hits": 14,
+      "in_play_outs": 15,
+      "strikes": 25
+     },
+     "pitch_count": 128,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 63,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -6.699999999999999,
+         "n": 61
+        },
+        "ivb_in": {
+         "mean": 16.72698412698415,
+         "n": 63
+        },
+        "velocity_mph": {
+         "mean": 97.26825396825396,
+         "n": 63
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 65,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.282539682539683,
+         "n": 63
+        },
+        "ivb_in": {
+         "mean": 1.317460317460318,
+         "n": 63
+        },
+        "velocity_mph": {
+         "mean": 86.94193548387098,
+         "n": 62
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "completed_pa": 20,
+     "intentional_walks": 0,
+     "outcomes": {
+      "balls": 22,
+      "fouls": 14,
+      "hits": 2,
+      "in_play_outs": 11,
+      "strikes": 18
+     },
+     "pitch_count": 67,
+     "pitch_types": {
+      "CH": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "CU": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FC": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "FF": {
+       "count": 36,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": -6.916666666666668,
+         "n": 36
+        },
+        "ivb_in": {
+         "mean": 15.655882352941175,
+         "n": 34
+        },
+        "velocity_mph": {
+         "mean": 96.93055555555554,
+         "n": 36
+        }
+       }
+      },
+      "SI": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      },
+      "SL": {
+       "count": 31,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": 5.8066666666666675,
+         "n": 30
+        },
+        "ivb_in": {
+         "mean": 1.5806451612903227,
+         "n": 31
+        },
+        "velocity_mph": {
+         "mean": 87.00333333333334,
+         "n": 30
+        }
+       }
+      },
+      "UNKNOWN": {
+       "count": 0,
+       "shape": {
+        "horizontal_break_in": {
+         "mean": null,
+         "n": 0
+        },
+        "ivb_in": {
+         "mean": null,
+         "n": 0
+        },
+        "velocity_mph": {
+         "mean": null,
+         "n": 0
+        }
+       }
+      }
+     }
+    }
+   },
+   "throws": "R",
+   "usage_health": {
+    "days_since_last_il_return": null,
+    "il_history_status": "no_recorded_stint",
+    "last_five_team_game_days": [
+     {
+      "data_status": "known",
+      "date": "2025-06-05",
+      "game_ids": [
+       "g_2025-06-05"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-06",
+      "game_ids": [
+       "g_2025-06-06"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-07",
+      "game_ids": [
+       "g_2025-06-07"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-08",
+      "game_ids": [
+       "g_2025-06-08"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     },
+     {
+      "data_status": "known",
+      "date": "2025-06-09",
+      "game_ids": [
+       "g_2025-06-09"
+      ],
+      "ip_display": "0.0",
+      "outs_recorded": 0
+     }
+    ],
+    "roster_available": false,
+    "season_outs_before_game": 39
+   }
+  }
+ }
+}

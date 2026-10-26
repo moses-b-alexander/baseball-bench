@@ -1,0 +1,73 @@
+{
+ "batting_order": [
+  "batter_01",
+  "batter_02",
+  "batter_03",
+  "batter_04",
+  "batter_05",
+  "batter_06",
+  "batter_07",
+  "batter_08",
+  "batter_09"
+ ],
+ "branch_ts": "2025-06-10T23:30:41Z",
+ "controlled_is_home": true,
+ "controlled_team_id": "home_demo",
+ "game_date": "2025-06-10",
+ "game_id": "demo_game_001",
+ "historical_before": "2025-06-10T23:05:00Z",
+ "initial_state": {
+  "bases": {
+   "first": null,
+   "second": null,
+   "third": null
+  },
+  "current_pitcher_id": "pitcher_01",
+  "defense_totals": {
+   "completed_pa": 23,
+   "hits_allowed": 4,
+   "outs_recorded": 16,
+   "pitches_thrown": 77
+  },
+  "half": "top",
+  "inning": 6,
+  "next_batter_index": 5,
+  "outs_this_half": 1,
+  "pitcher_appearances": {
+   "pitcher_01": {
+    "completed_pa": 23,
+    "entry_event_seq": 0,
+    "hits_allowed": 4,
+    "outs_recorded": 16,
+    "pitches_thrown": 77
+   }
+  },
+  "score": {
+   "controlled": 4,
+   "opponent": 3
+  },
+  "used_pitcher_ids": [
+   "pitcher_01"
+  ]
+ },
+ "last_defensive_inning": 9,
+ "notes": "Synthetic. Prefix bases/score are replayed with the benchmark's deterministic runner rules; the controlled team's runs are declared.",
+ "offense_runs_after_inning": {
+  "6": 0,
+  "7": 1,
+  "8": 0
+ },
+ "opponent_team_id": "away_demo",
+ "pitcher_pool": [
+  "pitcher_01",
+  "reliever_02",
+  "reliever_03",
+  "reliever_04",
+  "reliever_05",
+  "reliever_06",
+  "reliever_07"
+ ],
+ "scenario_id": "demo_001",
+ "schema_version": "0.3",
+ "synthetic": true
+}

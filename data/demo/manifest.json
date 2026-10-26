@@ -1,0 +1,54 @@
+{
+ "exclusions": {
+  "outside_cutoff_window": 801,
+  "pa_event_outside_cutoff_window": 1,
+  "unsupported:hit_by_pitch": 30
+ },
+ "files": {
+  "pa_events.csv": "4edbe9c774d1926f213ad4c9baf4340cee592d0ec360bc789ff82d8f2b5e5ac2",
+  "pitches.csv": "9e3d81168ef9c7ff9d07ec95cf40fdbd7b0b89076f53984464ee93e347b0eb68",
+  "profiles.json": "39b2eee6d4d34f5f06c47b3fdbce77a85d2a2f61d58a2ec085cabea5e894d445",
+  "scenario.json": "cee7e52981c02804f68a4b0e457ab83d14a00cab6783074d2b273f642380b705",
+  "sim_tables.json": "61af3a19aa64a52c78e832eaff30f2caa8d5c3e7100c4e48de8372293e865a57"
+ },
+ "generator": {
+  "command": "python data.py make-demo",
+  "seed": 20250610
+ },
+ "horizontal_break_convention": "catcher_perspective_positive_toward_first_base_side",
+ "ideal_attack_angle_deg": [
+  5.0,
+  20.0
+ ],
+ "il_field": "days since most recent IL return (proposed interpretation)",
+ "ivb_definition": "induced vertical break, gravity removed, inches",
+ "mapping_version": "map-0.1",
+ "outcome_mapping": {
+  "ball": "balls",
+  "called_strike": "strikes",
+  "foul": "fouls",
+  "hit_by_pitch": "excluded (unsupported)",
+  "hit_into_play": "hits | in_play_outs by pa_result",
+  "swinging_strike": "strikes"
+ },
+ "pitch_registry": {
+  "codes": [
+   "FF",
+   "SI",
+   "FC",
+   "SL",
+   "CU",
+   "CH",
+   "UNKNOWN"
+  ],
+  "version": "demo-registry-0.1"
+ },
+ "raw_sources": [
+  "synthetic generator in data.py (no network)"
+ ],
+ "schema_version": "0.3",
+ "snapshot_id": "demo-synthetic-0.1",
+ "synthetic": true,
+ "used_pitches": 6960,
+ "workload_window": "five most recent completed team game-dates before the scenario date, zero-appearance dates included; current game excluded"
+}

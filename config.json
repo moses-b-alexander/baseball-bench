@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.3",
+  "episode_mode": "defensive_horizon",
+  "data": {
+    "snapshot": "data/demo"
+  },
+  "lookup": {
+    "cost_pa": 1,
+    "max_free_per_boundary": 8,
+    "repeat_paid_query_costs_pa": true
+  },
+  "rules": {
+    "intentional_walk_enabled": true,
+    "max_switches_per_boundary": 1,
+    "allow_pitcher_reentry": false,
+    "steals_enabled": false,
+    "double_plays_enabled": false,
+    "enforce_three_batter_minimum": false,
+    "advancement": "deterministic_bases"
+  },
+  "probabilities": {
+    "provider": "pooled_frequency",
+    "pitcher_weight": 0.5,
+    "prior_strength": 20,
+    "fatigue_enabled": false
+  },
+  "observation": {
+    "show_shapes": true,
+    "show_player_names": false,
+    "notes_max_chars": 1500,
+    "reason_max_chars": 400
+  },
+  "execution": {
+    "max_repair_attempts": 1,
+    "max_decisions": 500,
+    "max_pitches_per_pa": 100,
+    "simulator_seed": 1234,
+    "model_seed": 5678
+  },
+  "knowledge": {
+    "mode": "common_briefing",
+    "curriculum_id": null,
+    "scope": "all_team",
+    "weights_frozen_during_evaluation": true
+  },
+  "baselines": {
+    "starter_pitch_threshold": 95,
+    "reliever_pitch_threshold": 25
+  },
+  "model": {
+    "base_url": "http://localhost:11434/v1",
+    "model": null,
+    "revision": null,
+    "quantization": null,
+    "temperature": 0.0,
+    "max_tokens": 400,
+    "timeout_s": 120,
+    "api_key_env": null,
+    "json_mode": true,
+    "infra_retries": 2
+  }
+}
